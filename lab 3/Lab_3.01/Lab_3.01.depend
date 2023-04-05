@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1680648676 source:/home/eslam/Templates/C_Projects/Labs/lab 3/Lab_3.01/main.c
+	<stdio.h>
+	<stdlib.h>
+

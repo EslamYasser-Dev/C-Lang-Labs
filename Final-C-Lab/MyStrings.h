@@ -7,5 +7,6 @@ void RevresStr(void);
 void ConCat(void);
 void swapp1(int* a, int* b);
 void swapp2(int* a, int* b);
-stdAdd(Student std[STR_LENGTH]);
+void stdAdd(Student stdx[]);
+void stdShow(Student stdx[]);
 #endif // MYSTRINGS_H_INCLUDED

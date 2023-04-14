@@ -2,9 +2,9 @@
 
 int main()
 {
+St
+    
     printf("Hello ..\n Type anything else to quit \n Choose form 1 to 4 where \n 1 = Reverse \n 2 = Concat, \n 3 = Swap two num \n");
-
-    student std[10];
     scanf("%d",&selector);
     switch(selector)
     {

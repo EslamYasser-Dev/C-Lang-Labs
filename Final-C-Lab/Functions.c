@@ -59,4 +59,12 @@ void swapp2(int* a, int* b){
     (*a) = (*a) / (*b);
     }
 
-///
+///5- C Function to store information (name, id and grade) for 10 students in array of structures using pointers and
+///another function to print all the structures using pointers.
+
+stdAdd(Student std[STR_LENGTH]){
+for(int = 0; i < n; i++){
+    std[i]={scanf("%s \n",name) scanf("%d",&id), scanf("%d",&grade)};
+}
+}
+

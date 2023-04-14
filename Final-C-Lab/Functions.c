@@ -15,7 +15,7 @@ void RevresStr(void)
 
     while(str[realLength] !='\0')    // to get the length of srting
     {
-       realLength++;
+        realLength++;
     }
 
     while(realLength > 0)   // to cpoy revesvly
@@ -30,23 +30,25 @@ void RevresStr(void)
 
 ///2- Write a function to concatenate two strings without using strcat function.
 
-    ConCat(){
-        unsigned char str1[STRING_LENGTH], str2[STRING_LENGTH];
-            printf("Enter The first string : \n");
-            fflush(stdin);
-            scanf("%s",str1);
+void ConCat(void)
+{
+    unsigned char str1[STRING_LENGTH], str2[STRING_LENGTH];
+    printf("Enter The first string : \n");
+    fflush(stdin);
+    scanf("%s",str1);
 
-            printf("\nEnter The first string : \n");
-            scanf("%s",str2);
-
-
-            printf("Here is concated Text : \n %s  %s \n",str1,str2);
-    }
+    printf("\nEnter The first string : \n");
+    scanf("%s",str2);
 
 
-    swapp(int* a, int* b){
-                    *a += *b;
-                    *b = *a - *b; //==a
-                    *a = *a - *b; //==(a+b)-a = b  ^_^
-    }
+    printf("Here is concated Text : \n %s  %s \n",str1,str2);
+}
+
+
+void swapp(int* a, int* b)
+{
+    *a += *b;
+    *b = *a - *b; //== (a+b) - b = a
+    *a = *a - *b; //==(a+b)-a = b     ^_^
+}
 

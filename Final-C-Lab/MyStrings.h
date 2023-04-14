@@ -3,7 +3,7 @@
 #define STR_LENGTH 30
 
 void RevresStr(void);
-
-
+void ConCat(void);
+void swapp(int* a, int* b){
 
 #endif // MYSTRINGS_H_INCLUDED

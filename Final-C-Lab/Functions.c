@@ -41,6 +41,12 @@ void RevresStr(void)
 
 
             printf("Here is concated Text : \n %s  %s \n",str1,str2);
+    }
 
+
+    swapp(int* a, int* b){
+                    *a += *b;
+                    *b = *a - *b; //==a
+                    *a = *a - *b; //==(a+b)-a = b  ^_^
     }
 

@@ -44,11 +44,19 @@ void ConCat(void)
     printf("Here is concated Text : \n %s  %s \n",str1,str2);
 }
 
+///Write a function to  swap two numbers in c without using third variable(2 Methods).
 
-void swapp(int* a, int* b)
+void swapp1(int* a, int* b)
 {
     *a += *b;
     *b = *a - *b; //== (a+b) - b = a
     *a = *a - *b; //==(a+b)-a = b     ^_^
 }
 
+void swapp2(int* a, int* b){
+    (*a) = (*a) * (*b);
+    (*b) = (*a) / (*b);
+    (*a) = (*a) / (*b);
+    }
+
+///

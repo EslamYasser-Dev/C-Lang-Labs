@@ -4,6 +4,6 @@
 
 void RevresStr(void);
 void ConCat(void);
-void swapp(int* a, int* b){
+void swapp1(int* a, int* b);
 
 #endif // MYSTRINGS_H_INCLUDED

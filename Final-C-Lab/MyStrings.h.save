@@ -1,0 +1,9 @@
+#ifndef MYSTRINGS_H_INCLUDED
+#define MYSTRINGS_H_INCLUDED
+#define STR_LENGTH 30
+
+void RevresStr(char str[30]);
+
+
+
+#endif // MYSTRINGS_H_INCLUDED

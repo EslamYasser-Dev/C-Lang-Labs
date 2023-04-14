@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1681512120 source:/home/eslamyasser/projects/C lang/C_Labs/C-Lang-Labs/Final-C-Lab/Functions.c
+	<stdio.h>
+	<stdlib.h>
+	"MyStrings.h"
+
+1681510353 /home/eslamyasser/projects/C lang/C_Labs/C-Lang-Labs/Final-C-Lab/MyStrings.h
+
+1681511169 source:/home/eslamyasser/projects/C lang/C_Labs/C-Lang-Labs/Final-C-Lab/main.c
+	"MyStrings.h"
+

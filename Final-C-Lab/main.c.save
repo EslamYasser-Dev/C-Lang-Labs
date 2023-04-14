@@ -1,0 +1,19 @@
+#include "MyStrings.h"
+
+int main()
+{
+    unsigned short int selector;
+    printf("Hello ..\n Type anything else to quit \n Choose form 1 to 4 where \n 1 = Reverse \n 2 = Concat, \n 3 = Swap two num \n");
+    f
+    scanf("%d",&selector);
+    switch(selector)
+    {
+        case 1:RevresStr();
+        break;
+        case 2:ConCat();
+        break;
+        default:printf("Ouitting ....");
+    }
+
+    return 0;
+}
